@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        header {
+            background-color: white;
+            display: flex;
+        }
+        div {
+            background-color: white;
+            width: 100%;
+            padding: 20px;
+        }
+        nav {
+            padding: 20px;
+            width:100%;
+        }
+        #heroimage{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height:400px;
+            overflow: hidden;
+            padding-bottom: 100px;
+        }
+        img {
+            width: 100%;
+
+        }
+        #hero{
+            width:auto;
+            height:400px;
+
+        }
+        #product {
+            display: flex;
+            background-image: url(https://i2.wp.com/i.pinimg.com/originals/74/26/8f/74268f7a93dd3f780ac8a9b7b1bf5801.jpg);
+        text-align: center;
+        }
+
+        footer{
+            background-color:white;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        h1{color:rgb(221, 169, 221);
+        font-size: 240%;
+        font-family:Georgia, 'Times New Roman', Times, serif;}
+
+        h2{color: teal;}
+
+        h3{color: teal;
+        }
+        #update {
+            margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 900px){
+
+h1 {
+
+color: pink;
+
+}
+
+@media screen and (min-width: 1000px){
+
+h1 {
+
+color: pink;
+
+}
+
+}
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+        <h1>VALERIA P. OLVERA ART</h1>
+        </div>
+        <nav>
+        <h2>All products</h2>
+    </nav>
+    <div>
+        <h2>New arrivals</h2>
+    </div>
+
+</header>
+
+<main>
+<div id="heroimage">
+   <img id="hero" src= "https://images.pexels.com/photos/7354626/pexels-photo-7354626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+</div>
+
+<div id="product">
+   <div class="item">
+        <img src="https://images.pexels.com/photos/7354758/pexels-photo-7354758.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <p>The Sunny Vase - $12.99</p>
+    </div>
+    <div class="item">
+        <img src="https://images.pexels.com/photos/7354862/pexels-photo-7354862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <p>The Peach Vase - $12.99</p>
+    </div>
+    <div class="item">
+        <img src="https://images.pexels.com/photos/7354667/pexels-photo-7354667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <p>The Lilly Vase - $12.99</p>
+    </div>
+
+
+</div>
+</main>
+
+<section>
+    <h3 id="update"> Updates + Exclusive News</h3>
+    <form>
+    <label for="email">Email:</label>
+    <input type="text" id="email"><br>
+    <input type="button" value="subscribe">
+</form>
+</section>
+
+<footer>
+        <h3>Designed by Valeria, 2021</h3>
+</footer>
+
+
+
+</body>
+</html>
